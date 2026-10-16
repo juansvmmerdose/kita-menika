@@ -1,0 +1,1278 @@
+# Auto-generated script to build 26 Jogja wedding vendors
+import json
+import shutil
+
+vendors = [
+  {
+    "id": "fg-jawara",
+    "name": "Jawara Photo",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Warm Editorial",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 3800000,
+    "rating": 5.0,
+    "reviewCount": 154,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@jawara.photo",
+    "igFollowers": "3.450 followers",
+    "igPostsCount": "179 posts",
+    "igUrl": "https://www.instagram.com/jawara.photo/",
+    "avatar": "assets/vendors/avatars/jawara.jpg",
+    "description": "Vendor dokumentasi foto & video pernikahan berbasis di Yogyakarta dengan tagar khas #bersamajawara. Menghadirkan dokumentasi emosional, hangat, dan abadi (*timeless candid*).",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/jawara_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "4.820 likes",
+        "caption": "Some souls meet once and change each other forever. The Wedding Prima & Fauzan @amaliaprimaa & @fb_santoso #bersamajawara 🤍"
+      },
+      {
+        "image": "assets/vendors/slides/jawara_slide_2.jpg",
+        "tag": "✨ TRADISIONAL PAES JOGJA",
+        "likes": "3.690 likes",
+        "caption": "The Wedding @maretafwa & @knrw_wsnv 🤍 MUA: @scratchby.mwulandey #weddingjogja #bersamajawara"
+      },
+      {
+        "image": "assets/vendors/slides/jawara_slide_3.jpg",
+        "tag": "🏛️ JOGLO HERITAGE",
+        "likes": "2.840 likes",
+        "caption": "From The Wedding Sisil & Dhimas di pendopo joglo bersejarah #jawaraphoto"
+      }
+    ],
+    "packages": [
+      {
+        "id": "jawara-p1",
+        "name": "Paket Intimate Akad Only (1 FG + 1 VG)",
+        "priceNum": 3800000,
+        "price": "Rp 3.800.000",
+        "detail": "Liputan akad 4 jam, 1 fotografer + 1 videografer, 50 edit foto, teaser 1 min reels, all raw files via cloud."
+      },
+      {
+        "id": "jawara-p2",
+        "name": "Full Day Wedding Documentation",
+        "priceNum": 6500000,
+        "price": "Rp 6.500.000",
+        "detail": "Liputan akad & resepsi 8 jam, 2 FG + 2 VG, teaser cinematic 1 min, video highlights 3 min, 120 foto edit, flashdisk box."
+      },
+      {
+        "id": "jawara-p3",
+        "name": "All-In Prewedding + Wedding Day Exclusive",
+        "priceNum": 9800000,
+        "price": "Rp 9.800.000",
+        "detail": "Prewedding Jogja outdoor + Full Day Wedding, cetak album kolase kulit mewah 20x30, 2 frame canvas 40x60, cinematic video 4K."
+      }
+    ]
+  },
+  {
+    "id": "fg-sandiliem",
+    "name": "Sandi Liems Photography",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 4500000,
+    "rating": 4.9,
+    "reviewCount": 112,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@sandi.liem",
+    "igFollowers": "5.820 followers",
+    "igPostsCount": "240 posts",
+    "igUrl": "https://www.instagram.com/sandi.liem/",
+    "avatar": "assets/vendors/avatars/sandiliem.jpg",
+    "description": "Fotografer pernikahan spesialis editorial couple portraits dan intimate wedding storytelling di Jogja.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/sandiliem_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "5.210 likes",
+        "caption": "Megahnya pelaminan gebyok berhias burung merak dan instalasi bunga #bysandiliem 🤍"
+      },
+      {
+        "image": "assets/vendors/slides/sandiliem_slide_2.jpg",
+        "tag": "🤍 AKAD RESMI JOGJA",
+        "likes": "3.880 likes",
+        "caption": "Senyum bahagia mempelai berbalut busana akad putih sakral #sandiliemphotography"
+      }
+    ],
+    "packages": [
+      {
+        "id": "sandi-p1",
+        "name": "Intimate Couple Session / Prewedding",
+        "priceNum": 4500000,
+        "price": "Rp 4.500.000",
+        "detail": "Sesi foto 5 jam di 2 lokasi Jogja pilihan, 40 edited photos, mini cinematic teaser, wooden box print."
+      },
+      {
+        "id": "sandi-p2",
+        "name": "Full Day Wedding Coverage & Framed Canvas",
+        "priceNum": 8000000,
+        "price": "Rp 8.000.000",
+        "detail": "Liputan akad & resepsi penuh hari H, 2 FG master, teaser reels, album exclusive hardcover, frame canvas 50x70."
+      }
+    ]
+  },
+  {
+    "id": "fg-luxvisual",
+    "name": "Lux Visual",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Warm Editorial",
+    "locationText": "Bantul, DI Yogyakarta",
+    "priceStart": 2000000,
+    "rating": 4.9,
+    "reviewCount": 98,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@luxvisual.id",
+    "igFollowers": "4.100 followers",
+    "igPostsCount": "150 posts",
+    "igUrl": "https://www.instagram.com/luxvisual.id/",
+    "avatar": "assets/vendors/avatars/luxvisual.jpg",
+    "description": "Kreator visual pernikahan di Yogyakarta yang menyuguhkan karya foto dan video cinematic dengan tone warna hangat bersahabat.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/luxvisual_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "3.920 likes",
+        "caption": "Momen lamaran sakral penuh kehangatan keluarga @luxvisual.id 💍"
+      }
+    ],
+    "packages": [
+      {
+        "id": "lux-p1",
+        "name": "Paket Lamaran / Engagement Documentation",
+        "priceNum": 2000000,
+        "price": "Rp 2.000.000",
+        "detail": "Liputan lamaran 3 jam, 1 FG + 1 VG, 35 foto edit, video reels siap unggah, drive link."
+      },
+      {
+        "id": "lux-p2",
+        "name": "Akad Nikah Only Coverage (Foto + Reels)",
+        "priceNum": 3500000,
+        "price": "Rp 3.500.000",
+        "detail": "Liputan akad 4 jam, 2 personil foto & video, video sinematik 1 menit, 60 foto edit."
+      }
+    ]
+  },
+  {
+    "id": "fg-kitakancerita",
+    "name": "Kitakancerita",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 5000000,
+    "rating": 4.9,
+    "reviewCount": 130,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@kitakancerita",
+    "igFollowers": "6.750 followers",
+    "igPostsCount": "310 posts",
+    "igUrl": "https://www.instagram.com/kitakancerita/",
+    "avatar": "assets/vendors/avatars/kitakancerita.jpg",
+    "description": "\"Menceritakan kisah cinta kalian melalui bingkai visual yang jujur.\" Ahli dalam mengabadikan prosesi adat Jawa dan intimate modern wedding.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/kitakancerita_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "6.450 likes",
+        "caption": "Momen restu tulus orang tua saat prosesi lamaran dan temu keluarga @kitakancerita 🌿"
+      }
+    ],
+    "packages": [
+      {
+        "id": "kita-p1",
+        "name": "Akad / Pemberkatan Only (Full Documentation)",
+        "priceNum": 5000000,
+        "price": "Rp 5.000.000",
+        "detail": "Dokumentasi khidmat prosesi akad / upacara adat, 2 FG profesional, 70 edit foto, cloud gallery."
+      },
+      {
+        "id": "kita-p2",
+        "name": "Full Day Wedding Story: 2 FG + 2 VG",
+        "priceNum": 8500000,
+        "price": "Rp 8.500.000",
+        "detail": "Liputan full day panggih / resepsi, teaser 1 min, film pendek pernikahan 5 min, album box istimewa."
+      }
+    ]
+  },
+  {
+    "id": "fg-nijo",
+    "name": "The Nijo Photograph",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Yogyakarta & Solo",
+    "priceStart": 5000000,
+    "rating": 4.8,
+    "reviewCount": 89,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@thenijophotograph",
+    "igFollowers": "4.890 followers",
+    "igPostsCount": "190 posts",
+    "igUrl": "https://www.instagram.com/thenijophotograph/",
+    "avatar": "assets/vendors/avatars/nijo.jpg",
+    "description": "Tim fotografer muda kreatif berbasis di Jogja-Solo dengan visual aesthetic segar, ceria, dan sangat ramah.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/nijo_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "4.180 likes",
+        "caption": "Prewedding gagah berbusana beskap dan blangkon Jogja di Gumuk Pasir @thenijophotograph 💛"
+      },
+      {
+        "image": "assets/vendors/slides/nijo_slide_2.jpg",
+        "tag": "🍂 AUTUMN PROMISE",
+        "likes": "3.250 likes",
+        "caption": "Genggaman jemari dan ikatan cincin abadi di tepian pantai selatan #thenijophotograph"
+      },
+      {
+        "image": "assets/vendors/slides/nijo_slide_3.jpg",
+        "tag": "👑 SILUET SANGGUL JOGJA",
+        "likes": "2.680 likes",
+        "caption": "Siluet anggun sanggul dan cunduk mentul pengantin putri Jawa karya NIJO"
+      }
+    ],
+    "packages": [
+      {
+        "id": "nijo-p1",
+        "name": "Intimate Wedding Documentation",
+        "priceNum": 5000000,
+        "price": "Rp 5.000.000",
+        "detail": "Dokumentasi intimate 5 jam, 2 FG, 60 edit foto berestetika tinggi, all files drive."
+      },
+      {
+        "id": "nijo-p2",
+        "name": "Wedding Day Cinematic Photo & Video",
+        "priceNum": 7800000,
+        "price": "Rp 7.800.000",
+        "detail": "Dokumentasi full day akad & resepsi, teaser cinematic, highlight video, album cetak premium."
+      }
+    ]
+  },
+  {
+    "id": "fg-neiscala",
+    "name": "Neiscala",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 7000000,
+    "rating": 5.0,
+    "reviewCount": 94,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@neiscala",
+    "igFollowers": "7.120 followers",
+    "igPostsCount": "210 posts",
+    "igUrl": "https://www.instagram.com/neiscala/",
+    "avatar": "assets/vendors/avatars/neiscala.jpg",
+    "description": "Spesialis wedding photography and cinematic film bernuansa romantis, anggun, dengan pencahayaan alami nan memukau.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/neiscala_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "7.340 likes",
+        "caption": "Among billions of souls, my heart found the one. Cinematic session @neiscala ✨"
+      }
+    ],
+    "packages": [
+      {
+        "id": "neiscala-p1",
+        "name": "The Romantic Day (Photo & Cinematic Reel)",
+        "priceNum": 7000000,
+        "price": "Rp 7.000.000",
+        "detail": "Liputan akad & resepsi 6 jam, video sinematik 1 menit, 80 edit foto editorial."
+      },
+      {
+        "id": "neiscala-p2",
+        "name": "Grand Wedding All-In (Drone + 2 Album Mewah)",
+        "priceNum": 12000000,
+        "price": "Rp 12.000.000",
+        "detail": "Full day 10 jam, 3 FG + 2 VG + pilot drone, film 7 menit 4K, 2 album kolase kulit."
+      }
+    ]
+  },
+  {
+    "id": "fg-lunanouva",
+    "name": "Luna Nouva Studio",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Ringinharjo, Bantul, DI Yogyakarta",
+    "priceStart": 4000000,
+    "rating": 4.8,
+    "reviewCount": 76,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@lunanouovastudio__",
+    "igFollowers": "3.980 followers",
+    "igPostsCount": "185 posts",
+    "igUrl": "https://www.instagram.com/lunanouovastudio__/",
+    "avatar": "assets/vendors/avatars/lunanouva.jpg",
+    "description": "Studio foto dan film pernikahan di Bantul. Menyediakan paket komplit foto studio, prewedding outdoor, liputan hari H, serta kolaborasi MUA & dekorasi.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/lunanouva_slide_1.jpg",
+        "tag": "🔥 PALING BANYAK LIKE DI IG",
+        "likes": "3.620 likes",
+        "caption": "Potret anggun berbusana kebaya kutubaru khas Yogyakarta @lunanouovastudio__ 🌸"
+      }
+    ],
+    "packages": [
+      {
+        "id": "luna-p1",
+        "name": "Paket Liputan Akad & Resepsi Bantul",
+        "priceNum": 4000000,
+        "price": "Rp 4.000.000",
+        "detail": "Liputan hari H 6 jam, 1 FG + 1 VG, 50 foto edit, mini teaser, USB exclusive."
+      },
+      {
+        "id": "luna-p2",
+        "name": "Prewedding Studio + Outdoor Gumuk Pasir",
+        "priceNum": 2800000,
+        "price": "Rp 2.800.000",
+        "detail": "Sesi indoor studio Bantul + Gumuk Pasir Parangkusumo, 30 foto edit, cetak canvas."
+      }
+    ]
+  },
+  {
+    "id": "fg-kencana",
+    "name": "Kencana Photography Jogja",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Jl. Mangkubumi, Kota Yogyakarta",
+    "priceStart": 6000000,
+    "rating": 5.0,
+    "reviewCount": 310,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@kencanaphoto",
+    "igFollowers": "41.200 followers",
+    "igPostsCount": "1.450 posts",
+    "igUrl": "https://www.instagram.com/kencanaphoto/",
+    "avatar": "assets/vendors/avatars/kencana.jpg",
+    "description": "Legenda fotografi pernikahan Yogyakarta sejak 1980. Pelopor dokumentasi adat Paes Ageng bangsawan keraton dan royal ballroom.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/kencana_slide_1.jpg",
+        "tag": "👑 HERITAGE MASTERPIECE",
+        "likes": "8.920 likes",
+        "caption": "Warisan agung tata rias dan busana adat Paes Ageng Keraton Ngayogyakarta @kencanaphoto 👑"
+      }
+    ],
+    "packages": [
+      {
+        "id": "kencana-p1",
+        "name": "Heritage Royal Akad (2 Master FG)",
+        "priceNum": 6000000,
+        "price": "Rp 6.000.000",
+        "detail": "Dokumentasi akad sakral 5 jam, 2 FG senior Kencana, album cetak magnetik klasik, master raw files."
+      },
+      {
+        "id": "kencana-p2",
+        "name": "Grand Imperial Royal Wedding (All-In)",
+        "priceNum": 11500000,
+        "price": "Rp 11.500.000",
+        "detail": "Liputan panggih & resepsi agung, 3 FG + 2 VG cinematic, 2 album kolase beludru, 2 canvas frame ukir emas."
+      }
+    ]
+  },
+  {
+    "id": "fg-ruangasmara",
+    "name": "Ruang Asmara",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Warm Editorial",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 4500000,
+    "rating": 4.9,
+    "reviewCount": 85,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@ruang.asmara",
+    "igFollowers": "8.400 followers",
+    "igPostsCount": "220 posts",
+    "igUrl": "https://www.instagram.com/ruang.asmara/",
+    "avatar": "assets/vendors/avatars/ruangasmara.jpg",
+    "description": "Kolektif visual pencerita asmara dengan tone warna lembut, intim, dan sangat jujur menangkap emosi setiap detik hari bahagia.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/ruangasmara_slide_1.jpg",
+        "tag": "🎞️ INTIMATE STORYTELLING",
+        "likes": "4.310 likes",
+        "caption": "Ketika tatapan mata berbicara lebih lantang daripada ribuan kata di sore Yogyakarta @ruang.asmara 🤍"
+      }
+    ],
+    "packages": [
+      {
+        "id": "asmara-p1",
+        "name": "Intimate Day Documentation (1 FG + 1 VG)",
+        "priceNum": 4500000,
+        "price": "Rp 4.500.000",
+        "detail": "Liputan 5 jam intimate wedding, 50 foto editorial tone, video reels 1 min, album mini kenangan."
+      },
+      {
+        "id": "asmara-p2",
+        "name": "The Whole Asmara (Prewed + Wedding Day)",
+        "priceNum": 7500000,
+        "price": "Rp 7.500.000",
+        "detail": "Sesi prewed outdoor Jogja + liputan penuh hari H, film kenangan 4 min, custom wooden box album."
+      }
+    ]
+  },
+  {
+    "id": "fg-kairos",
+    "name": "Kairos Works Jogja",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 7500000,
+    "rating": 5.0,
+    "reviewCount": 118,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@kairos_works",
+    "igFollowers": "16.800 followers",
+    "igPostsCount": "340 posts",
+    "igUrl": "https://www.instagram.com/kairos_works/",
+    "avatar": "assets/vendors/avatars/kairos.jpg",
+    "description": "Spesialis fine art wedding photography berkelas internasional di Yogyakarta dengan estetika pencahayaan modern.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/kairos_slide_1.jpg",
+        "tag": "✨ FINE ART BRIDAL",
+        "likes": "6.890 likes",
+        "caption": "Elegance is the only beauty that never fades. Captured with fine art precision by @kairos_works ✨"
+      }
+    ],
+    "packages": [
+      {
+        "id": "kairos-p1",
+        "name": "Fine Art Wedding Day Coverage",
+        "priceNum": 7500000,
+        "price": "Rp 7.500.000",
+        "detail": "Liputan hari H 8 jam, 2 lead photographer, 100 fine art edited photos, luxury linen album 30x30."
+      },
+      {
+        "id": "kairos-p2",
+        "name": "The Signature Kairos Master (Foto + Film)",
+        "priceNum": 13000000,
+        "price": "Rp 13.000.000",
+        "detail": "Full wedding cinema 4K + 3 FG fine art, drone aerial, 2 luxury albums, flash storage box akrilik."
+      }
+    ]
+  },
+  {
+    "id": "fg-senja",
+    "name": "Cerita Tentang Senja",
+    "category": "photography",
+    "city": "yogyakarta",
+    "styleTag": "Warm Editorial",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 3500000,
+    "rating": 4.8,
+    "reviewCount": 64,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@ceritatentangsenja",
+    "igFollowers": "5.100 followers",
+    "igPostsCount": "160 posts",
+    "igUrl": "https://www.instagram.com/ceritatentangsenja/",
+    "avatar": "assets/vendors/avatars/senja.jpg",
+    "description": "Menyimpan kehangatan senja Yogyakarta dalam frame dokumentasi pernikahan syahdu berbalut nuansa hangat alami.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/senja_slide_1.jpg",
+        "tag": "🌅 SUNSET INTIMATE",
+        "likes": "3.420 likes",
+        "caption": "Menikmati lembayung senja bersama yang terkasih. Momen abadi bersama @ceritatentangsenja 🌿"
+      }
+    ],
+    "packages": [
+      {
+        "id": "senja-p1",
+        "name": "Paket Senja Akad & Resepsi (1 FG + 1 VG)",
+        "priceNum": 3500000,
+        "price": "Rp 3.500.000",
+        "detail": "Liputan akad & intimate resepsi 5 jam, 45 foto edit, video teaser 1 min reels, drive link."
+      }
+    ]
+  },
+  {
+    "id": "catering-vidi",
+    "name": "Vidi Catering Services Jogja",
+    "category": "catering",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Mlati, Sleman, DI Yogyakarta",
+    "priceStart": 50000,
+    "rating": 5.0,
+    "reviewCount": 420,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@vidicatering",
+    "igFollowers": "34.800 followers",
+    "igPostsCount": "890 posts",
+    "igUrl": "https://www.instagram.com/vidicatering/",
+    "avatar": "assets/vendors/avatars/vidi.jpg",
+    "description": "Raja katering pernikahan terpercaya di Yogyakarta dengan sertifikasi ISO 22000 dan resep citarasa ningrat Kraton.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/vidi_slide_1.jpg",
+        "tag": "🍽️ CITARASA NINGRAT KRATON",
+        "likes": "5.600 likes",
+        "caption": "Sajian hidangan prasmanan citarasa ningrat Kraton Yogyakarta Halal MUI Grade A @vidicatering"
+      }
+    ],
+    "packages": [
+      {
+        "id": "cat-vidi-p1",
+        "name": "Paket Prasmanan Tradisi Jogja (Min 500 Pax)",
+        "priceNum": 25000000,
+        "price": "Rp 50.000 / pax",
+        "detail": "Menu prasmanan komplit: Nasi, Sup Pengantin, Daging Lapis, Ayam Goreng Lengkuas, Es Doger, dessert."
+      },
+      {
+        "id": "cat-vidi-p2",
+        "name": "Paket Royal Buffet + 6 Gubukan Khas",
+        "priceNum": 37500000,
+        "price": "Rp 75.000 / pax",
+        "detail": "Buffet ningrat + gubukan Zuppa Soup, Sate Klathak, Selat Solo, Siomay, Es Puter kelapa muda."
+      }
+    ]
+  },
+  {
+    "id": "catering-shinta",
+    "name": "Shinta Catering Jogja",
+    "category": "catering",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Palagan Tentara Pelajar, Sleman",
+    "priceStart": 48000,
+    "rating": 4.9,
+    "reviewCount": 290,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@shintacatering",
+    "igFollowers": "22.400 followers",
+    "igPostsCount": "620 posts",
+    "igUrl": "https://www.instagram.com/shintacatering/",
+    "avatar": "assets/vendors/avatars/shinta.jpg",
+    "description": "Catering legendaris Yogyakarta sejak 1985. Terkenal dengan gubukan sate klathak khas Jogja dan racikan bumbu rempah otentik.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/shinta_slide_1.jpg",
+        "tag": "🍲 GUBUKAN SATE KLATHAK",
+        "likes": "4.910 likes",
+        "caption": "Sensasi kuliner pernikahan otentik Jogja dengan stall gubukan favorit para tamu @shintacatering 🍲"
+      }
+    ],
+    "packages": [
+      {
+        "id": "cat-shinta-p1",
+        "name": "Paket Selera Nusantara (Min 400 Pax)",
+        "priceNum": 19200000,
+        "price": "Rp 48.000 / pax",
+        "detail": "Prasmanan lengkap 6 menu utama, gubukan bakso kuah sapi asli, es dawet ayu, dekorasi meja buffet."
+      }
+    ]
+  },
+  {
+    "id": "catering-alburuj",
+    "name": "Al-Buruj Catering Sleman",
+    "category": "catering",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 42000,
+    "rating": 4.9,
+    "reviewCount": 180,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@alburujcatering",
+    "igFollowers": "14.500 followers",
+    "igPostsCount": "410 posts",
+    "igUrl": "https://www.instagram.com/alburujcatering/",
+    "avatar": "assets/vendors/avatars/alburuj.jpg",
+    "description": "Spesialis catering pernikahan islami & tradisional Jogja dengan sertifikasi halal resmi dan harga bersahabat.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/alburuj_slide_1.jpg",
+        "tag": "✨ HALAL & BERKAH",
+        "likes": "3.810 likes",
+        "caption": "Jamuan nikmat higienis penuh berkah untuk hari bahagia keluarga besar @alburujcatering 🌿"
+      }
+    ],
+    "packages": [
+      {
+        "id": "cat-alburuj-p1",
+        "name": "Paket Barakah Hemat (Min 500 Pax)",
+        "priceNum": 21000000,
+        "price": "Rp 42.000 / pax",
+        "detail": "Prasmanan komplit, sup kimlo, ayam panggang kecap, sambal goreng krecek, es podeng, pramusaji rapi."
+      }
+    ]
+  },
+  {
+    "id": "catering-karunia",
+    "name": "Karunia Catering Jogja",
+    "category": "catering",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Umbulharjo, Kota Yogyakarta",
+    "priceStart": 55000,
+    "rating": 5.0,
+    "reviewCount": 165,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@karuniacatering",
+    "igFollowers": "18.100 followers",
+    "igPostsCount": "480 posts",
+    "igUrl": "https://www.instagram.com/karuniacatering/",
+    "avatar": "assets/vendors/avatars/karunia.jpg",
+    "description": "Catering pesta pernikahan terkemuka di Kota Jogja dengan tata saji hotel berbintang dan garnish bunga segar memikat.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/karunia_slide_1.jpg",
+        "tag": "✨ BANQUET PRESENTATION",
+        "likes": "4.250 likes",
+        "caption": "Penyajian elegan hidangan ningrat dengan standar hospitality terbaik @karuniacatering 🍷"
+      }
+    ],
+    "packages": [
+      {
+        "id": "cat-karunia-p1",
+        "name": "Paket Jamuan Istimewa (Min 400 Pax)",
+        "priceNum": 22000000,
+        "price": "Rp 55.000 / pax",
+        "detail": "Buffet premium, roast beef stall, sup rolade ayam, aneka puding vla, free test food 4 porsi."
+      }
+    ]
+  },
+  {
+    "id": "venue-ambarrukmo",
+    "name": "Pendopo Agung Royal Ambarrukmo",
+    "category": "venue",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Depok, Sleman, DI Yogyakarta",
+    "priceStart": 85000000,
+    "rating": 5.0,
+    "reviewCount": 155,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@royalambarrukmo",
+    "igFollowers": "78.500 followers",
+    "igPostsCount": "2.400 posts",
+    "igUrl": "https://www.instagram.com/royalambarrukmo/",
+    "avatar": "assets/vendors/avatars/ambarrukmo.jpg",
+    "description": "Cagar budaya bersejarah peninggalan Sultan Hamengku Buwono VII. Ikon royal wedding adat Jawa termegah dan tersakral di Indonesia.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/ambarrukmo_slide_1.jpg",
+        "tag": "🏛️ ROYAL HERITAGE VENUE",
+        "likes": "16.700 likes",
+        "caption": "Megahnya pilar kayu jati bersejarah abad ke-18 Pendopo Agung Royal Ambarrukmo"
+      }
+    ],
+    "packages": [
+      {
+        "id": "venue-amb-p1",
+        "name": "Heritage Akad & Paringgitan (150 Pax)",
+        "priceNum": 85000000,
+        "price": "Rp 85.000.000",
+        "detail": "Penggunaan Pendopo Agung 4 jam, sound system, kamar pengantin Ambarrukmo, izin acara."
+      },
+      {
+        "id": "venue-amb-p2",
+        "name": "Royal Grand Pendopo & Taman Gandhok (500 Pax)",
+        "priceNum": 145000000,
+        "price": "Rp 145.000.000",
+        "detail": "Penggunaan penuh indoor pendopo & taman outdoor, 2 kamar suite hotel, koordinasi teknis."
+      }
+    ]
+  },
+  {
+    "id": "venue-kalyana",
+    "name": "Kalyana Resort Kaliurang",
+    "category": "venue",
+    "city": "yogyakarta",
+    "styleTag": "Outdoor Garden",
+    "locationText": "Kaliurang Barat, Sleman",
+    "priceStart": 45000000,
+    "rating": 5.0,
+    "reviewCount": 110,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@kalyanaresort",
+    "igFollowers": "32.100 followers",
+    "igPostsCount": "580 posts",
+    "igUrl": "https://www.instagram.com/kalyanaresort/",
+    "avatar": "assets/vendors/avatars/kalyana.jpg",
+    "description": "Venue outdoor garden wedding paling magis di bawah sejuknya lereng Gunung Merapi. Lanskap pinus rindang dan villa peristirahatan eksklusif.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/kalyana_slide_1.jpg",
+        "tag": "🌿 MAGICAL PINE GARDEN",
+        "likes": "9.430 likes",
+        "caption": "Janji suci di bawah kanopi pepohonan pinus dan kabut sejuk Kaliurang @kalyanaresort 🌲"
+      }
+    ],
+    "packages": [
+      {
+        "id": "venue-kal-p1",
+        "name": "Intimate Pine Garden (200 Pax)",
+        "priceNum": 45000000,
+        "price": "Rp 45.000.000",
+        "detail": "Sewa area taman outdoor & amphiteatre, 3 villa privat untuk keluarga menginap, genset 50 KVA."
+      },
+      {
+        "id": "venue-kal-p2",
+        "name": "Exclusive Full Resort Takeover",
+        "priceNum": 75000000,
+        "price": "Rp 75.000.000",
+        "detail": "Penggunaan seluruh area resort selama 2 hari 1 malam, total 8 villa kamar tidur, bebas jam acara."
+      }
+    ]
+  },
+  {
+    "id": "venue-ngabean",
+    "name": "Ndalem Ngabean Heritage",
+    "category": "venue",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Kraton, Alun-Alun Kidul, Kota Jogja",
+    "priceStart": 28000000,
+    "rating": 4.9,
+    "reviewCount": 98,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@ndalem_ngabean",
+    "igFollowers": "15.300 followers",
+    "igPostsCount": "390 posts",
+    "igUrl": "https://www.instagram.com/ndalem_ngabean/",
+    "avatar": "assets/vendors/avatars/ngabean.jpg",
+    "description": "Pendopo kediaman ningrat bangsawan Keraton Yogyakarta di kawasan Alun-Alun Kidul dengan arsitektur joglo ukir klasik otentik.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/ngabean_slide_1.jpg",
+        "tag": "🏛️ JOGLO BANGSAWAN JOGJA",
+        "likes": "5.120 likes",
+        "caption": "Kekhidmatan upacara panggih adat Jawa di pendopo bersejarah Ndalem Ngabean Kraton 👑"
+      }
+    ],
+    "packages": [
+      {
+        "id": "venue-ngab-p1",
+        "name": "Sewa Pendopo Agung & Pringgitan (300 Pax)",
+        "priceNum": 28000000,
+        "price": "Rp 28.000.000",
+        "detail": "Penggunaan pendopo kayu jati 6 jam, area parkir luas dekat Alkid, ruang rias ber-AC."
+      }
+    ]
+  },
+  {
+    "id": "venue-hyatt",
+    "name": "Hyatt Regency Yogyakarta Wedding",
+    "category": "venue",
+    "city": "yogyakarta",
+    "styleTag": "Outdoor Garden",
+    "locationText": "Palagan Tentara Pelajar, Sleman",
+    "priceStart": 95000000,
+    "rating": 5.0,
+    "reviewCount": 240,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@hyattregencyyogya",
+    "igFollowers": "94.200 followers",
+    "igPostsCount": "3.100 posts",
+    "igUrl": "https://www.instagram.com/hyattregencyyogya/",
+    "avatar": "assets/vendors/avatars/hyatt.jpg",
+    "description": "Hotel resor bintang 5 termegah di Jogja dengan lanskap taman candi Mataram, padang golf hijau, dan grand ballroom mewah.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/hyatt_slide_1.jpg",
+        "tag": "✨ 5-STAR TEMPLE GARDEN",
+        "likes": "14.800 likes",
+        "caption": "Pernikahan impian bertema candi di tengah hijaunya taman tropis Hyatt Regency Yogyakarta 🌸"
+      }
+    ],
+    "packages": [
+      {
+        "id": "venue-hyatt-p1",
+        "name": "Merapi Garden Wedding (300 Pax)",
+        "priceNum": 95000000,
+        "price": "Rp 95.000.000",
+        "detail": "Termasuk jamuan buffet hotel bintang 5 untuk 300 pax, kamar suite pengantin, spa couple."
+      }
+    ]
+  },
+  {
+    "id": "venue-omahpakem",
+    "name": "Omah Pakem Resort Jogja",
+    "category": "venue",
+    "city": "yogyakarta",
+    "styleTag": "Outdoor Garden",
+    "locationText": "Pakem, Sleman, DI Yogyakarta",
+    "priceStart": 35000000,
+    "rating": 4.9,
+    "reviewCount": 82,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@omahpakem",
+    "igFollowers": "17.400 followers",
+    "igPostsCount": "410 posts",
+    "igUrl": "https://www.instagram.com/omahpakem/",
+    "avatar": "assets/vendors/avatars/omahpakem.jpg",
+    "description": "Venue bernuansa pedesaan Jawa asri dengan aliran sungai alami, jembatan kayu, dan pendopo etnik di kaki Merapi.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/omahpakem_slide_1.jpg",
+        "tag": "🌿 RIVERSIDE ETHNIC",
+        "likes": "6.120 likes",
+        "caption": "Kehangatan pesta intimate pernikahan berlatar gemericik air sungai dan hijaunya sawah Pakem 🌾"
+      }
+    ],
+    "packages": [
+      {
+        "id": "venue-omah-p1",
+        "name": "Riverside Intimate Package (250 Pax)",
+        "priceNum": 35000000,
+        "price": "Rp 35.000.000",
+        "detail": "Sewa area riverside, amphitheater taman, joglo utama, dan 2 kamar bungalow keluarga."
+      }
+    ]
+  },
+  {
+    "id": "wo-mahkota",
+    "name": "Mahkota Wedding Organizer Jogja",
+    "category": "wo",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 15000000,
+    "rating": 5.0,
+    "reviewCount": 160,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@mahkota_wo.jogja",
+    "igFollowers": "27.900 followers",
+    "igPostsCount": "670 posts",
+    "igUrl": "https://www.instagram.com/mahkota_wo.jogja/",
+    "avatar": "assets/vendors/avatars/mahkota.jpg",
+    "description": "Wedding Organizer terkemuka di Yogyakarta spesialis pemandu pakem adat Jawa Paes Ageng dan upacara panggih berwibawa.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/mahkota_slide_1.jpg",
+        "tag": "💍 PROTOKOL ADAT KHIDMAT",
+        "likes": "7.120 likes",
+        "caption": "Ketenangan jalannya prosesi ijab kabul sakral berkat pengawalan tim @mahkota_wo.jogja"
+      }
+    ],
+    "packages": [
+      {
+        "id": "wo-mah-p1",
+        "name": "Wedding Day Coordination (6 Crew Full Day)",
+        "priceNum": 15000000,
+        "price": "Rp 15.000.000",
+        "detail": "6 orang kru profesional, koordinasi teknis vendor hari H, pengawalan rundown adat panggih, HT crew."
+      },
+      {
+        "id": "wo-mah-p2",
+        "name": "Full Planning & Protocol Adat Keraton",
+        "priceNum": 25000000,
+        "price": "Rp 25.000.000",
+        "detail": "Perencanaan sejak H-6 bulan, kurasi vendor, simulasi gladi resik adat, pendampingan keluarga."
+      }
+    ]
+  },
+  {
+    "id": "wo-weddingku",
+    "name": "Weddingku Jogja Planner",
+    "category": "wo",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 12000000,
+    "rating": 4.9,
+    "reviewCount": 135,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@weddingku_jogja",
+    "igFollowers": "19.800 followers",
+    "igPostsCount": "510 posts",
+    "igUrl": "https://www.instagram.com/weddingku_jogja/",
+    "avatar": "assets/vendors/avatars/weddingkujogja.jpg",
+    "description": "Sahabat perencanaan pernikahan terpercaya untuk calon pengantin modern. Fokus pada efisiensi anggaran dan ketepatan rundown.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/weddingkujogja_slide_1.jpg",
+        "tag": "✨ MODERN PLANNING",
+        "likes": "5.620 likes",
+        "caption": "Mewujudkan pesta pernikahan impian tanpa rasa panik bersama @weddingku_jogja 🤍"
+      }
+    ],
+    "packages": [
+      {
+        "id": "wo-wkj-p1",
+        "name": "Day-Of Coordination Intimate (5 Crew)",
+        "priceNum": 12000000,
+        "price": "Rp 12.000.000",
+        "detail": "Pengawalan acara akad & resepsi 8 jam, briefing keluarga, timekeeper ketat, handling VIP."
+      }
+    ]
+  },
+  {
+    "id": "wo-gmproduction",
+    "name": "GM Production Jogja",
+    "category": "wo",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 18000000,
+    "rating": 5.0,
+    "reviewCount": 178,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@gmproduction_official",
+    "igFollowers": "25.100 followers",
+    "igPostsCount": "790 posts",
+    "igUrl": "https://www.instagram.com/gmproduction_official/",
+    "avatar": "assets/vendors/avatars/gmproduction.jpg",
+    "description": "Event & Wedding Organizer terkemuka di Jogja dengan kekuatan multimedia, lighting konser, panggung megah, dan manajemen show spektakuler.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/gmproduction_slide_1.jpg",
+        "tag": "🎉 GRAND STAGE SHOW",
+        "likes": "6.890 likes",
+        "caption": "Kemegahan tata panggung dan tata cahaya spektakuler di malam resepsi pernikahan @gmproduction_official ✨"
+      }
+    ],
+    "packages": [
+      {
+        "id": "wo-gm-p1",
+        "name": "Grand Ballroom Production & Organizer",
+        "priceNum": 18000000,
+        "price": "Rp 18.000.000",
+        "detail": "8 personil WO lapangan + show director, integrasi lighting panggung, koordinasi pengisi acara."
+      }
+    ]
+  },
+  {
+    "id": "wo-classy",
+    "name": "Classy Wedding Organizer",
+    "category": "wo",
+    "city": "yogyakarta",
+    "styleTag": "Warm Editorial",
+    "locationText": "Condongcatur, Sleman",
+    "priceStart": 10000000,
+    "rating": 4.8,
+    "reviewCount": 88,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@classy.wedding",
+    "igFollowers": "11.200 followers",
+    "igPostsCount": "320 posts",
+    "igUrl": "https://www.instagram.com/classy.wedding/",
+    "avatar": "assets/vendors/avatars/classywo.jpg",
+    "description": "Tim perencana muda Jogja yang ramah dan berdedikasi mengawal intimate wedding aesthetic berkesan mendalam.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/classywo_slide_1.jpg",
+        "tag": "🤍 INTIMATE PROTOCOL",
+        "likes": "4.150 likes",
+        "caption": "Kenyamanan setiap tamu undangan dalam balutan pesta intimate yang tertata rapi @classy.wedding"
+      }
+    ],
+    "packages": [
+      {
+        "id": "wo-cls-p1",
+        "name": "Intimate Day Coordination (4 Crew)",
+        "priceNum": 10000000,
+        "price": "Rp 10.000.000",
+        "detail": "4 kru profesional hari H, panduan akad & resepsi intimate 6 jam, checklist persiapan."
+      }
+    ]
+  },
+  {
+    "id": "mua-mamuk",
+    "name": "Mamuk Tukang Makeup Jogja",
+    "category": "mua",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Kraton, Kota Yogyakarta",
+    "priceStart": 9500000,
+    "rating": 5.0,
+    "reviewCount": 280,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@mamuktukangmakeupjogja",
+    "igFollowers": "52.400 followers",
+    "igPostsCount": "1.200 posts",
+    "igUrl": "https://www.instagram.com/mamuktukangmakeupjogja/",
+    "avatar": "assets/vendors/avatars/mamuk.jpg",
+    "description": "Maestro tata rias pengantin adat Jawa paling disegani di Jogja. Sangat presisi dalam pakem cengkorongan Paes Ageng, Kanigaran, dan Jangan Menir.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/mamuk_slide_1.jpg",
+        "tag": "👑 MAESTRO PAES AGENG",
+        "likes": "18.300 likes",
+        "caption": "Mahakarya Paes Ageng Kraton Ngayogyakarta Hadiningrat prada emas keraton @mamuktukangmakeupjogja"
+      }
+    ],
+    "packages": [
+      {
+        "id": "mamuk-p1",
+        "name": "Rias Pengantin Jogja Putri Modifikasi",
+        "priceNum": 9500000,
+        "price": "Rp 9.500.000",
+        "detail": "Rias pengantin akad + resepsi, rias 2 ibu, aksesoris lengkap, paes pakem modif."
+      },
+      {
+        "id": "mamuk-p2",
+        "name": "Paes Ageng Jangan Menir Komplit + Busana Adat",
+        "priceNum": 14000000,
+        "price": "Rp 14.000.000",
+        "detail": "Tata rias langsung maestro, busana beludru sepasang pengantin, cengkorongan prada emas asli."
+      }
+    ]
+  },
+  {
+    "id": "mua-arnie",
+    "name": "Arnie Suryo Paes Ageng",
+    "category": "mua",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 8500000,
+    "rating": 5.0,
+    "reviewCount": 195,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@arniesuryo",
+    "igFollowers": "38.200 followers",
+    "igPostsCount": "890 posts",
+    "igUrl": "https://www.instagram.com/arniesuryo/",
+    "avatar": "assets/vendors/avatars/arniesuryo.jpg",
+    "description": "Perias pengantin adat Jawa Keraton Yogyakarta berlisensi pakem. Dipercaya berbagai royal wedding di Pendopo Ambarrukmo.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/arniesuryo_slide_1.jpg",
+        "tag": "✨ PAKEM PAES KRATON",
+        "likes": "12.400 likes",
+        "caption": "Pancaran anggun cunduk mentul dan roncean melati harum semerbak @arniesuryo 👑"
+      }
+    ],
+    "packages": [
+      {
+        "id": "arnie-p1",
+        "name": "Tata Rias Paes Ageng Jogja Putri",
+        "priceNum": 8500000,
+        "price": "Rp 8.500.000",
+        "detail": "Rias pengantin sepasang, paes ageng cengkorongan prada emas, perhiasan roncean melati asli."
+      }
+    ]
+  },
+  {
+    "id": "mua-scratchby",
+    "name": "Scratch by Wulandey MUA",
+    "category": "mua",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 4500000,
+    "rating": 4.9,
+    "reviewCount": 140,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@scratchby.mwulandey",
+    "igFollowers": "19.500 followers",
+    "igPostsCount": "430 posts",
+    "igUrl": "https://www.instagram.com/scratchby.mwulandey/",
+    "avatar": "assets/vendors/avatars/scratchby.jpg",
+    "description": "MUA muda hits Jogja spesialis flawless dewy complexion & modern hijab bridal. Partner rias resmi Jawara Photo.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/scratchby_slide_1.jpg",
+        "tag": "🤍 FLAWLESS MODERN BRIDE",
+        "likes": "7.890 likes",
+        "caption": "Kecantikan alami yang bersinar tanpa mengubah karakter asli wajah @scratchby.mwulandey ✨"
+      }
+    ],
+    "packages": [
+      {
+        "id": "scratch-p1",
+        "name": "Akad Nikah Flawless Complexion",
+        "priceNum": 4500000,
+        "price": "Rp 4.500.000",
+        "detail": "Rias pengantin wanita premium flawless dewy, hijab styling modern, softlens, retouch resepsi."
+      }
+    ]
+  },
+  {
+    "id": "decor-danani",
+    "name": "Danani Decoration Jogja",
+    "category": "decoration",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Umbulharjo, Kota Yogyakarta",
+    "priceStart": 25000000,
+    "rating": 4.9,
+    "reviewCount": 92,
+    "isPromoted": true,
+    "promoTier": "FEATURED",
+    "igHandle": "@dananidecoration",
+    "igFollowers": "19.200 followers",
+    "igPostsCount": "480 posts",
+    "igUrl": "https://www.instagram.com/dananidecoration/",
+    "avatar": "assets/vendors/avatars/danani.jpg",
+    "description": "Spesialis dekorasi pelaminan gebyok keraton dan instalasi bunga hidup megah di Jogja.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/danani_slide_1.jpg",
+        "tag": "🌸 GEBYOK KRATON FLORAL",
+        "likes": "6.900 likes",
+        "caption": "Kemegahan pelaminan gebyok jati ukir klasik bertabur ribuan kuntum bunga segar @dananidecoration"
+      }
+    ],
+    "packages": [
+      {
+        "id": "decor-p1",
+        "name": "Pelaminan Gebyok Kraton 8 Meter",
+        "priceNum": 25000000,
+        "price": "Rp 25.000.000",
+        "detail": "Gebyok jati ukir klasik 8M, instalasi bunga hidup fresh, pergola masuk, pundi uang, lighting."
+      }
+    ]
+  },
+  {
+    "id": "decor-suryo",
+    "name": "Suryo Decor Jogja",
+    "category": "decoration",
+    "city": "yogyakarta",
+    "styleTag": "Tradisional Jawa",
+    "locationText": "Sleman, DI Yogyakarta",
+    "priceStart": 30000000,
+    "rating": 5.0,
+    "reviewCount": 115,
+    "isPromoted": true,
+    "promoTier": "SPOTLIGHT",
+    "igHandle": "@suryodecor_jogja",
+    "igFollowers": "28.400 followers",
+    "igPostsCount": "620 posts",
+    "igUrl": "https://www.instagram.com/suryodecor_jogja/",
+    "avatar": "assets/vendors/avatars/suryodecor.jpg",
+    "description": "Dekorator terkemuka di Yogyakarta pelopor instalasi pelaminan megah perpaduan ukiran kayu jati dan chandelier kristal gantung.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/suryodecor_slide_1.jpg",
+        "tag": "✨ GRAND CHANDELIER GEBYOK",
+        "likes": "8.120 likes",
+        "caption": "Kemewahan tata panggung pelaminan adat Jawa dengan lampu gantung kristal megah @suryodecor_jogja 🌸"
+      }
+    ],
+    "packages": [
+      {
+        "id": "decor-suryo-p1",
+        "name": "Grand Royal Gebyok 10 Meter",
+        "priceNum": 30000000,
+        "price": "Rp 30.000.000",
+        "detail": "Pelaminan gebyok 10 meter, full fresh floral impor, lorong masuk karpet merah, photobooth 3D."
+      }
+    ]
+  },
+  {
+    "id": "decor-excelsior",
+    "name": "Excelsior Decoration Jogja",
+    "category": "decoration",
+    "city": "yogyakarta",
+    "styleTag": "Modern Minimalist",
+    "locationText": "Kota Yogyakarta, DI Yogyakarta",
+    "priceStart": 35000000,
+    "rating": 5.0,
+    "reviewCount": 104,
+    "isPromoted": false,
+    "promoTier": "STANDARD",
+    "igHandle": "@excelsiordecoration",
+    "igFollowers": "21.600 followers",
+    "igPostsCount": "490 posts",
+    "igUrl": "https://www.instagram.com/excelsiordecoration/",
+    "avatar": "assets/vendors/avatars/excelsior.jpg",
+    "description": "Spesialis dekorasi modern romantic, fairy tale glasshouse, dan instalasi terowongan lampu bintang memukau di Jogja.",
+    "slideIndex": 0,
+    "slides": [
+      {
+        "image": "assets/vendors/slides/excelsior_slide_1.jpg",
+        "tag": "✨ FAIRY TALE GLASSHOUSE",
+        "likes": "9.840 likes",
+        "caption": "Pancaran romansa instalasi lampu bintang dan bunga pastel di malam pesta pernikahan @excelsiordecoration ✨"
+      }
+    ],
+    "packages": [
+      {
+        "id": "decor-ex-p1",
+        "name": "Modern Romantic Floral Installation",
+        "priceNum": 35000000,
+        "price": "Rp 35.000.000",
+        "detail": "Panggung pelaminan modern lengkung akrilik, instalasi hanging flowers seluas ballroom, gazebo akad."
+      }
+    ]
+  }
+]
+
+# Read current index.html template
+with open("index.html", "r", encoding="utf-8") as f:
+    text = f.read()
+
+# Replace the vendors array inside javascript
+import re
+pattern = r"const vendors = \[[\s\S]*?\];\s*// INITIAL BOOKINGS DATA"
+replacement = f"const vendors = " + json.dumps(vendors_data, indent=4, ensure_ascii=False) + ";\n\n    // INITIAL BOOKINGS DATA"
+
+new_html = re.sub(pattern, replacement, text)
+
+with open("index.html", "w", encoding="utf-8") as f:
+    f.write(new_html)
+
+brain_file = r"C:\Users\VANDI\.gemini\antigravity\brain\98605af6-0ebd-4ed8-a33b-bdbb36cb2699\preview_prototype.html"
+with open(brain_file, "w", encoding="utf-8") as f:
+    f.write(new_html)
+
+print("Successfully injected 26 top Jogja wedding vendors into index.html and preview_prototype.html!")
