@@ -1,0 +1,26 @@
+===============================================================
+KITA MENIKAH - The Curated Wedding Marketplace Yogyakarta
+Prototipe Interaktif Ultra-HD iPhone 16 Pro Max
+===============================================================
+
+LOKASI PENYIMPANAN: D:\VANDI\KITA_MENIKAH
+
+CARA MENJALANKAN APLIKASI:
+1. Cukup klik ganda (double click) file "index.html" di folder ini.
+2. File akan langsung terbuka di browser favorit Anda (Google Chrome, Microsoft Edge, Firefox, dll).
+3. Anda akan melihat simulasi fisik iPhone 16 Pro Max dengan Home Screen interaktif.
+4. Klik pada ikon aplikasi "kita menikah" di baris bawah grid aplikasi untuk membuka aplikasi dengan animasi suara & visual splash screen.
+
+FITUR-FITUR UTAMA YANG SUDAH JALAN:
+- Simulasi iPhone 16 Pro Max dengan Dynamic Island interaktif & jam live.
+- Navigasi Home Screen iOS dengan ikon aplikasi "kita menikah".
+- Transisi animasi splash screen mewah tanpa jeda font.
+- Feed Card Eksklusif Kurasi Editorial (bukan kloningan IG, aspect ratio 16:10 ringkas).
+- Transparansi harga paket & sistem Rekber Escrow DP 20% aman.
+- TikTok Reels Engine manten (video gending manten & cengkorongan paes).
+- Simulasi Hitung Anggaran (Budget Calculator) pernikahan ideal.
+- Dua mode operasional: Mode Klien & Mode Mitra Vendor.
+- Chat langsung interaktif dua arah dengan proteksi sensor nomor luar.
+
+Disimpan dengan aman pada: 16 Oktober 2026.
+===============================================================
