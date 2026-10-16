@@ -320,6 +320,8 @@
           <!-- ============================================================ -->
           <div id="btnAppKitaMenikah" 
                onclick="launchKitaMenikahApp()"
+               ontouchstart="this.style.transform='scale(0.92)'"
+               ontouchend="this.style.transform=''; event.preventDefault(); launchKitaMenikahApp();"
                class="flex flex-col items-center cursor-pointer group relative z-30 transition-transform duration-200 hover:scale-110 active:scale-95"
                role="button"
                tabindex="0"
