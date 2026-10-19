@@ -146,8 +146,6 @@
     <!-- ULTRA HD iOS HOMESCREEN (100% PURE VECTOR & HD CRISTAL CLEAR) -->
     <!-- ============================================================ -->
     <div id="iosHomeScreen" class="absolute inset-0 z-40 flex flex-col justify-between pt-12 pb-3 px-4 select-none transition-all duration-500 overflow-hidden"
-         onclick="launchKitaMenikahApp()"
-         ontouchend="launchKitaMenikahApp()"
          style="background: radial-gradient(circle at 80% 15%, #ff5e3a 0%, #ff2a6d 35%, transparent 68%), radial-gradient(circle at 15% 75%, #7928ca 0%, #4c1d95 38%, #1e1b4b 75%), radial-gradient(circle at 50% 50%, #f97316 0%, #db2777 45%, #09090b 100%); background-color: #0c0a14;">
 
       <!-- AMBIENT FLUID LIGHT OVERLAY -->
@@ -4966,14 +4964,14 @@
       }
     }
 
-    let toastTimeout = null;
+    let homescreenToastTimeout = null;
     function showHomescreenHintToast() {
       const toast = document.getElementById('homescreenToast');
       if (!toast) return;
-      if (toastTimeout) clearTimeout(toastTimeout);
+      if (homescreenToastTimeout) clearTimeout(homescreenToastTimeout);
       toast.classList.remove('opacity-0', 'pointer-events-none');
       toast.classList.add('opacity-100');
-      toastTimeout = setTimeout(() => {
+      homescreenToastTimeout = setTimeout(() => {
         toast.classList.remove('opacity-100');
         toast.classList.add('opacity-0', 'pointer-events-none');
       }, 2500);
@@ -5029,46 +5027,6 @@
       }
     });
 
-  </script>
-
-  <!-- TOMBOL DARURAT - TAMPIL DULU, HILANG SETELAH APP TERBUKA -->
-  <div id="emergencyLaunchBtn" style="
-    position: fixed; inset: 0; z-index: 9999;
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    background: linear-gradient(135deg, #0c0a14 0%, #1a0a2e 50%, #0d0d0d 100%);
-    font-family: -apple-system, sans-serif;
-  ">
-    <img src="assets/app_icon_squircle.png" style="width:88px;height:88px;border-radius:22px;box-shadow:0 0 40px rgba(255,100,150,0.5);margin-bottom:20px;" onerror="this.style.display='none'">
-    <div style="color:#fff;font-size:22px;font-weight:800;letter-spacing:0.5px;margin-bottom:6px;">KITA MENIKAH</div>
-    <div style="color:#aaa;font-size:13px;margin-bottom:36px;">Platform Vendor Pernikahan Jogja</div>
-    <button onclick="document.getElementById('emergencyLaunchBtn').style.display='none'; launchKitaMenikahApp();"
-            style="
-              background: linear-gradient(135deg, #f43f8e, #a855f7);
-              color: white; border: none; border-radius: 50px;
-              padding: 16px 48px; font-size: 17px; font-weight: 700;
-              cursor: pointer; box-shadow: 0 8px 30px rgba(244,63,142,0.5);
-              letter-spacing: 0.5px;
-            ">
-      ✨ Masuk ke Aplikasi
-    </button>
-    <div style="color:#555;font-size:11px;margin-top:16px;">Ketuk tombol di atas untuk mulai</div>
-  </div>
-
-  <script>
-    // AUTO LAUNCH: Coba buka app otomatis setelah semua dimuat
-    window.addEventListener('load', function() {
-      setTimeout(function() {
-        try {
-          launchKitaMenikahApp();
-          // Kalau berhasil, sembunyikan tombol darurat
-          var btn = document.getElementById('emergencyLaunchBtn');
-          if (btn) btn.style.display = 'none';
-        } catch(e) {
-          // Kalau gagal, tombol darurat tetap tampil — user bisa klik manual
-          console.log('Auto-launch error:', e);
-        }
-      }, 800);
-    });
   </script>
 </body>
 </html>
