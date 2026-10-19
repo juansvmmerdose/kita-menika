@@ -3114,7 +3114,7 @@
     let appliedVoucher = null;
 
     function formatRupiah(num) {
-      return 'Rp ' + Number(num).toLocaleString('id-ID');
+      return 'Rp\u00A0' + Number(num).toLocaleString('id-ID');
     }
 
     // TOGGLE APP MODE (KLIEN vs MITRA VENDOR)
@@ -3387,29 +3387,34 @@
 
             <!-- 3. WEDDING DECISION & GUARANTEE STRIP -->
             <div class="p-3 bg-[#0c0d11] space-y-2.5">
-              <div class="flex items-center justify-between">
-                <div class="space-y-0.5 cursor-pointer" onclick="openVendorModal('${v.id}')">
-                  <span class="text-[9px] uppercase tracking-wider text-neutral-400 font-semibold block">Paket Mulai</span>
-                  <div class="text-sm font-bold text-amber-300 font-mono tracking-tight">${priceLabel}</div>
+              <div class="flex items-center justify-between gap-2">
+                <!-- Price Section (Clean, Non-wrapping, High Luxury Editorial) -->
+                <div class="cursor-pointer shrink-0" onclick="openVendorModal('${v.id}')">
+                  <span class="text-[9px] uppercase tracking-[0.16em] text-neutral-400 font-semibold block leading-none mb-1">Paket Mulai</span>
+                  <div class="flex items-baseline whitespace-nowrap leading-none">
+                    <span class="text-[10.5px] font-bold text-amber-400/90 tracking-tight mr-1">Rp</span>
+                    <span class="text-[15px] font-extrabold text-amber-300 font-mono tracking-tight">${Number(v.priceStart).toLocaleString('id-ID')}</span>
+                    ${v.category === 'catering' ? '<span class="text-[9.5px] text-neutral-400 font-normal ml-1">/pax</span>' : ''}
+                  </div>
                 </div>
 
                 <!-- Action Buttons: Wishlist, Chat, Lihat Paket -->
-                <div class="flex items-center space-x-1.5">
+                <div class="flex items-center gap-1.5 shrink-0">
                   <!-- Wishlist Button -->
-                  <button onclick="event.stopPropagation(); toggleSave('${v.id}')" class="p-1.5 rounded-xl border ${isSaved ? 'bg-amber-400/20 border-amber-400/60 text-amber-300' : 'bg-neutral-800/80 border-neutral-700/70 text-neutral-300 hover:text-white'} transition active:scale-95 shadow-sm" title="Simpan ke Wishlist">
+                  <button onclick="event.stopPropagation(); toggleSave('${v.id}')" class="w-8 h-8 rounded-xl border ${isSaved ? 'bg-amber-400/20 border-amber-400/60 text-amber-300' : 'bg-neutral-800/80 border-neutral-700/70 text-neutral-300 hover:text-white'} transition active:scale-95 shadow-sm flex items-center justify-center shrink-0" title="Simpan ke Wishlist">
                     <svg class="w-4 h-4 ${isSaved ? 'fill-amber-400 text-amber-400' : ''}" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/></svg>
                   </button>
 
                   <!-- Direct Consultation Chat Button -->
-                  <button onclick="event.stopPropagation(); openChatWithVendorById('${v.id}')" class="px-2.5 py-1.5 rounded-xl bg-neutral-800/90 hover:bg-neutral-700 border border-neutral-700 text-emerald-400 hover:text-emerald-300 text-[11px] font-semibold transition active:scale-95 flex items-center space-x-1 shadow-sm">
+                  <button onclick="event.stopPropagation(); openChatWithVendorById('${v.id}')" class="h-8 px-2.5 rounded-xl bg-neutral-800/90 hover:bg-neutral-700 border border-neutral-700 text-emerald-400 hover:text-emerald-300 text-[11px] font-semibold transition active:scale-95 flex items-center space-x-1 shadow-sm shrink-0 whitespace-nowrap">
                     <span>💬</span>
-                    <span>Konsultasi</span>
+                    <span>Chat</span>
                   </button>
 
                   <!-- View Detail Button -->
-                  <button onclick="openVendorModal('${v.id}')" class="px-3 py-1.5 rounded-xl bg-gradient-to-r from-neutral-100 to-neutral-200 hover:from-white hover:to-neutral-100 text-black text-[11px] font-bold transition active:scale-95 shadow flex items-center space-x-1">
+                  <button onclick="openVendorModal('${v.id}')" class="h-8 px-3 rounded-xl bg-gradient-to-r from-neutral-100 to-neutral-200 hover:from-white hover:to-neutral-100 text-black text-[11px] font-bold transition active:scale-95 shadow flex items-center space-x-1 shrink-0 whitespace-nowrap">
                     <span>Paket</span>
-                    <span>→</span>
+                    <span class="text-xs">→</span>
                   </button>
                 </div>
               </div>
@@ -3681,7 +3686,7 @@
                       <input type="radio" name="pkgOption" id="radio-${p.id}" ${idx === 0 ? 'checked' : ''} class="accent-white">
                       <span class="text-xs font-bold text-white">${p.name}</span>
                     </div>
-                    <span class="text-xs font-bold text-emerald-400 font-mono">${p.price}</span>
+                    <span class="text-xs font-bold text-emerald-400 font-mono whitespace-nowrap shrink-0 ml-2">${p.price}</span>
                   </div>
                   <p class="text-[11px] text-neutral-400 pl-5 leading-relaxed">${p.detail}</p>
                 </div>
